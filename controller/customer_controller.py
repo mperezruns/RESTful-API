@@ -1,7 +1,7 @@
 from flask import Blueprint, request
 
-from service.customer_service import CustomerService
 from model.customer import Customer
+from service.customer_service import CustomerService
 
 cc = Blueprint('customer_controller', __name__)
 
